@@ -1,0 +1,113 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "f71W5CN6UCjtobR98gomX1",
+      "projectName": "TodoMVC",
+      "version": "latest",
+      "cssFilePath": "plasmic/todo_mvc/plasmic_todo_mvc.module.css",
+      "components": [
+        {
+          "id": "mkDKv78onapbl",
+          "name": "TodoApp",
+          "type": "managed",
+          "projectId": "f71W5CN6UCjtobR98gomX1",
+          "renderModuleFilePath": "plasmic/todo_mvc/PlasmicTodoApp.jsx",
+          "importSpec": {
+            "modulePath": "TodoApp.jsx"
+          },
+          "cssFilePath": "plasmic/todo_mvc/PlasmicTodoApp.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "OXHLYSc4LzCuf",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "f71W5CN6UCjtobR98gomX1",
+          "renderModuleFilePath": "plasmic/todo_mvc/PlasmicHeader.jsx",
+          "importSpec": {
+            "modulePath": "Header.jsx"
+          },
+          "cssFilePath": "plasmic/todo_mvc/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Ya6SacNVjjIAk",
+          "name": "Task",
+          "type": "managed",
+          "projectId": "f71W5CN6UCjtobR98gomX1",
+          "renderModuleFilePath": "plasmic/todo_mvc/PlasmicTask.jsx",
+          "importSpec": {
+            "modulePath": "Task.jsx"
+          },
+          "cssFilePath": "plasmic/todo_mvc/PlasmicTask.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "v0aod5snmh3Bk",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "f71W5CN6UCjtobR98gomX1",
+          "renderModuleFilePath": "plasmic/todo_mvc/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/todo_mvc/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "IHABy7bS-ae-_",
+          "name": "ToggleButton",
+          "type": "managed",
+          "projectId": "f71W5CN6UCjtobR98gomX1",
+          "renderModuleFilePath": "plasmic/todo_mvc/PlasmicToggleButton.jsx",
+          "importSpec": {
+            "modulePath": "ToggleButton.jsx"
+          },
+          "cssFilePath": "plasmic/todo_mvc/PlasmicToggleButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "projectApiToken": "PYft3RKqiHD5L3zoJQ9U0EhRtzAU2lYvcL3uZSGObWtA5iCqCdvuvejRKPZKdPQmbeLckOST6cXFtFuU8tkKA"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "s4w3ie624D2mU",
+        "name": "Theme",
+        "projectId": "f71W5CN6UCjtobR98gomX1",
+        "contextFilePath": "plasmic/todo_mvc/PlasmicGlobalVariant__Theme.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.152",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.152/dist/plasmic.schema.json"
+}
